@@ -52,8 +52,14 @@ document.addEventListener('DOMContentLoaded', (e) => {
                 listItem.textContent = item;
                 console.log(listItem)
                 ingredientsContainer.appendChild(listItem)
-            })
-    })
+            });
+        })
+        .catch(() => {
+            
+            result.innerHTML = `<h3 class='message'>Please enter a valid input</h3>
+
+            `
+        })
 }
 
 })
