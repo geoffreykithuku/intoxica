@@ -55,3 +55,9 @@
         -webkit-box-shadow: 9px 3px 25px 9px rgba(222, 97, 97, 0.44);
         -moz-box-shadow: 9px 3px 25px 9px rgba(222, 97, 97, 0.44);
  }
+
+ #result img {
+    display: block;
+    max-width: 12.5em;
+    margin: auto;
+ }
