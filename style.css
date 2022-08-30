@@ -46,7 +46,7 @@
  .search-container .button {
     font-size: 1em;
     border-radius: 2em;
-    background-color: #5372f0;
+    background-color: #7089ed;
     border: none;
     color: #ffffff;
    
@@ -108,3 +108,11 @@
    font-size: 0.95em;
 }
 
+
+
+@media screen and (max-width: 600px) {
+   .container{
+      font-size: 14px;
+   }
+   
+}
