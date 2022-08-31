@@ -1,7 +1,7 @@
 let result = document.getElementById('result');
 
+
 let searchBtn = document.getElementById('search-button');
-let viewbtn  = document.getElementById('view-button');
 
 let url = 'https://thecocktaildb.com/api/json/v1/1/search.php?s=';
 
@@ -18,7 +18,8 @@ let getInfo = () => {
             fetch(url + userInput)
                 .then(resp => resp.json())
                 .then(data => {
-                    console.log(data)
+                   
+
                     let myDrink = data.drinks[0];
                     
                     let count = 1;
@@ -54,6 +55,10 @@ let getInfo = () => {
                         listItem.textContent = item;
                         ingredientsContainer.appendChild(listItem)
                     });
+                     
+                        
+    
+
                 })
                 .catch(() => {
             

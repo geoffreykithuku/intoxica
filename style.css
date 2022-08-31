@@ -38,6 +38,7 @@
     outline: none;
     color: #1f194c;
     border-bottom: 1.5px solid #1f194c;
+    width: 27rem;
  }
 
  .search-container .input:focus{
