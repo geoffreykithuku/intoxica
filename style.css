@@ -8,7 +8,7 @@
  }
 
  body {
-   height: 100vh;
+   height: 120vh;
     background: linear-gradient(#a9b7ec 50%, #b39898 50%);
  }
  .container{
@@ -16,16 +16,16 @@
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    width: 90vw;
+    width: 100%;
     max-width: 37.5em;
     background-color: #ffffff;
     padding: 0.7em;
     border-radius: 0.6em;
     box-shadow: 0 1em 3em rgba(2,9,38,0.25);
 
- }
+ } 
  .search-container{
-    display: grid;
+    display: flex;
     grid-template-columns: 9fr 3fr;
     gap: 1em;
     margin-bottom: 1.2em;
@@ -49,7 +49,9 @@
     background-color: #7089ed;
     border: none;
     color: #ffffff;
-   
+
+   height: 40px;
+      width: 80px;
     cursor: pointer;
    box-shadow: 5px 4px 9px 8px rgba(222, 177, 177, 0.47);
       -webkit-box-shadow: 5px 4px 9px 8px rgba(222, 177, 177, 0.47);
@@ -68,6 +70,7 @@
     margin: auto;
     border-radius: 5px;
       z-index: 999;
+     
  }
  #result h2{
    font-size: 1em;
@@ -106,7 +109,7 @@
 #result p{
    text-align: justify;
    font-weight: 400;
-   font-size: 0.95em;
+   font-size: 0.8em;
 }
 #result .message{
    color: red;
@@ -125,6 +128,7 @@
    color: #5372f0;
    text-align: center;
    justify-content: center;
+   font-size: 0.5em;
 }
 
 
@@ -134,7 +138,7 @@
 
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
    .container{
       font-size: 14px;
    }
