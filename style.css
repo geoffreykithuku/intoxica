@@ -9,7 +9,8 @@
 
  body {
    height: 120vh;
-    background: linear-gradient(#a9b7ec 50%, #b39898 50%);
+background-color: #FFFFFF;
+   background-image: linear-gradient(180deg, #FFFFFF 0%, #b162ff 4%, #00ffa5 100%);
  }
  .container{
     position: relative;
@@ -21,7 +22,9 @@
     background-color: #ffffff;
     padding: 0.7em;
     border-radius: 0.6em;
-    box-shadow: 0 1em 3em rgba(2,9,38,0.25);
+    box-shadow: 0 1em 3em rgba(2, 12, 51, 0.45);
+    z-index: 999;
+    
 
  } 
  .search-container{
