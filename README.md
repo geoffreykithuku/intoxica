@@ -2,7 +2,10 @@ Intoxica
 
 Welcome to Intoxica. You wanna get intoxicated? This is the right app for you. Prepare any kind of cocktail at your comfort.
 
-Prerequisites
+# <<<<<<< HEAD
+
+> > > > > > > ce54cc7d2a10a449f9d614c5e2ea775f57c287bd
+> > > > > > > Prerequisites
 
 Have Git installed.
 
