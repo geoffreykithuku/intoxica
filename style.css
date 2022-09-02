@@ -1,82 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
- *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-   
- }
 
- body {
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+
+}
+
+body {
    height: 120vh;
-background-color: #FFFFFF;
+   background-color: #FFFFFF;
    background-image: linear-gradient(180deg, #FFFFFF 0%, #b162ff 4%, #00ffa5 100%);
- }
- .container{
-    position: relative;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    max-width: 37.5em;
-    background-color: #ffffff;
-    padding: 0.7em;
-    border-radius: 0.6em;
-    box-shadow: 0 1em 3em rgba(2, 12, 51, 0.45);
-    z-index: 999;
-    
+}
 
- } 
- .search-container{
-    display: flex;
-    grid-template-columns: 9fr 3fr;
-    gap: 1em;
-    margin-bottom: 1.2em;
-    
- }
- .search-container .input{
-    font-size: 1em;
-    padding: 0.6em 0.3em;
-    border: none;
-    outline: none;
-    color: #1f194c;
-    border-bottom: 1.5px solid #1f194c;
-    width: 27rem;
- }
+.container {
+   position: relative;
+   transform: translate(-50%, -50%);
+   top: 50%;
+   left: 50%;
+   width: 100%;
+   max-width: 37.5em;
+   background-color: #ffffff;
+   padding: 0.7em;
+   border-radius: 0.6em;
+   box-shadow: 0 1em 3em rgba(2, 12, 51, 0.45);
+   z-index: 999;
 
- .search-container .input:focus{
-    border-color: #5372f0;
- }
- .search-container .button {
-    font-size: 1em;
-    border-radius: 2em;
-    background-color: #7089ed;
-    border: none;
-    color: #ffffff;
+
+}
+
+.search-container {
+   display: flex;
+   grid-template-columns: 9fr 3fr;
+   gap: 1em;
+   margin-bottom: 1.2em;
+
+}
+
+.search-container .input {
+   font-size: 1em;
+   padding: 0.6em 0.3em;
+   border: none;
+   outline: none;
+   color: #1f194c;
+   border-bottom: 1.5px solid #1f194c;
+   width: 27rem;
+}
+
+.search-container .input:focus {
+   border-color: #5372f0;
+}
+
+.search-container .button {
+   font-size: 1em;
+   border-radius: 2em;
+   background-color: #7089ed;
+   border: none;
+   color: #ffffff;
 
    height: 40px;
-      width: 80px;
-    cursor: pointer;
+   width: 80px;
+   cursor: pointer;
    box-shadow: 5px 4px 9px 8px rgba(222, 177, 177, 0.47);
-      -webkit-box-shadow: 5px 4px 9px 8px rgba(222, 177, 177, 0.47);
-      -moz-box-shadow: 5px 4px 9px 8px rgba(222, 177, 177, 0.47);
- }
- #result {
+   -webkit-box-shadow: 5px 4px 9px 8px rgba(222, 177, 177, 0.47);
+   -moz-box-shadow: 5px 4px 9px 8px rgba(222, 177, 177, 0.47);
+}
+
+#result {
    color: #575a7b;
    line-height: 1.5em;
-   
- }
 
- #result img {
-    display: block;
-    width: 15.5em;
-    max-height: 10.5em;
-    margin: auto;
-    border-radius: 5px;
-      z-index: 999;
-     
- }
- #result h2{
+}
+
+#result img {
+   display: block;
+   width: 15.5em;
+   max-height: 10.5em;
+   margin: auto;
+   border-radius: 5px;
+   z-index: 999;
+
+}
+
+#result h2 {
    font-size: 1em;
    margin: 0.8em 0 1.6em 0;
    text-align: center;
@@ -85,7 +92,8 @@ background-color: #FFFFFF;
    letter-spacing: 0.05em;
    color: #8883aa;
    position: relative;
- }
+}
+
 #result h2:before {
    content: "";
    position: absolute;
@@ -95,39 +103,45 @@ background-color: #FFFFFF;
    left: 42.5%;
    bottom: -0.3em;
 }
-#result h3{
+
+#result h3 {
    font-size: 1em;
    font-weight: 600;
    margin-bottom: 0.2em;
    color: #1f194c;
 }
+
 #result ul {
    margin-bottom: 1em;
    margin-left: 1.8em;
    display: grid;
    grid-template-columns: auto auto;
 }
+
 #result li {
    margin-bottom: 0.3em;
 }
-#result p{
+
+#result p {
    text-align: justify;
    font-weight: 400;
    font-size: 0.8em;
 }
-#result .message{
+
+#result .message {
    color: red;
    font-weight: 100;
    font-size: 10px;
 }
 
-.head h2{
+.head h2 {
    color: #5372f0;
    text-align: center;
    justify-content: center;
    font-size: 2em;
    letter-spacing: 3px;
 }
+
 .head p {
    color: #5372f0;
    text-align: center;
@@ -143,22 +157,25 @@ background-color: #FFFFFF;
 
 
 @media screen and (max-width: 500px) {
-   .container{
+   .container {
       font-size: 14px;
    }
-   .search-container{
+
+   .search-container {
       display: block;
       align-items: center;
    }
-   .search-container input{
+
+   .search-container input {
       width: 18em;
       margin-bottom: 10px;
    }
-   .search-container button{
+
+   .search-container button {
       font-size: 1em;
-      height:40px;
+      height: 40px;
       width: 80px;
-   
+
    }
-   
+
 }
