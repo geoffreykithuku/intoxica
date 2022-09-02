@@ -1,10 +1,12 @@
-Intoxica
+# Author
+Geoffrey Kithuku
 
 Welcome to Intoxica. You wanna get intoxicated? This is the right app for you. Prepare any kind of cocktail at your comfort.
 
 #  Intoxica
-
-2022-08-30_19-13.png
+<p align="center">
+  <img src="your_relative_path_here" width="350" title="intoxica">
+</p>
 
 > > > > > > > ce54cc7d2a10a449f9d614c5e2ea775f57c287b
 # Prerequisites
@@ -46,3 +48,6 @@ Load, submit, click
 # API used
 
 https://thecocktaildb.com
+
+# License
+this project is copyright free. feel free to fork, clone and edit
