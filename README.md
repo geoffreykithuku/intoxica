@@ -1,9 +1,13 @@
 # Author
+<<<<<<< HEAD
 
+=======
+>>>>>>> eabd9ab91bacbd6b49cc2dea9e8cef15aee5c8d1
 Geoffrey Kithuku
 
 Welcome to Intoxica. You wanna get intoxicated? This is the right app for you. Prepare any kind of cocktail at your comfort.
 
+<<<<<<< HEAD
 # Intoxica
 
 <p align="center">
@@ -12,6 +16,14 @@ Welcome to Intoxica. You wanna get intoxicated? This is the right app for you. P
 
 > > > > > > > ce54cc7d2a10a449f9d614c5e2ea775f57c287b
 
+=======
+#  Intoxica
+<p align="center">
+  <img src="your_relative_path_here" width="350" title="intoxica">
+</p>
+
+> > > > > > > ce54cc7d2a10a449f9d614c5e2ea775f57c287b
+>>>>>>> eabd9ab91bacbd6b49cc2dea9e8cef15aee5c8d1
 # Prerequisites
 
 Have Git installed.
@@ -53,5 +65,8 @@ Load, submit, click
 https://thecocktaildb.com
 
 # License
+<<<<<<< HEAD
 
+=======
+>>>>>>> eabd9ab91bacbd6b49cc2dea9e8cef15aee5c8d1
 this project is copyright free. feel free to fork, clone and edit
