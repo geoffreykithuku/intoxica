@@ -4,6 +4,8 @@ Welcome to Intoxica. You wanna get intoxicated? This is the right app for you. P
 
 # <<<<<<< HEAD
 
+2022-08-30_19-13.png
+
 > > > > > > > ce54cc7d2a10a449f9d614c5e2ea775f57c287bd
 > > > > > > > Prerequisites
 
