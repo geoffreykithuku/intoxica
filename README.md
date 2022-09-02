@@ -2,9 +2,6 @@ Intoxica
 
 Welcome to Intoxica. You wanna get intoxicated? This is the right app for you. Prepare any kind of cocktail at your comfort.
 
-
-
-
 Prerequisites
 
 Have Git installed.
@@ -37,7 +34,6 @@ Click Submit.
 
 Wait for the response from the web application to get your cocktail info, steps and preparation procedure.
 
-
 Events
 
 Load, submit, click
@@ -45,5 +41,3 @@ Load, submit, click
 API used
 
 https://thecocktaildb.com
-
-
