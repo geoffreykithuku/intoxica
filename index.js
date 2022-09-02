@@ -1,3 +1,5 @@
+
+//collecting my variables and organizing data
 let result = document.getElementById('result');
 
 
@@ -6,6 +8,8 @@ let searchBtn = document.getElementById('search-button');
 let url = 'https://thecocktaildb.com/api/json/v1/1/search.php?s=';
 
 
+
+//fetch data from a public api
 
 let getInfo = () => {
     let userInput = document.getElementById('user-input').value;
@@ -60,6 +64,9 @@ let getInfo = () => {
     
 
                 })
+
+                //catch errors
+
                 .catch(() => {
             
                     result.innerHTML = `<h3 class='message'>Please enter a valid input</h3>
@@ -70,6 +77,8 @@ let getInfo = () => {
 
 }
 
+
+//adding window load event listeners and click
 
 window.addEventListener('load', getInfo)
 searchBtn.addEventListener('click', getInfo)
