@@ -2,24 +2,24 @@ Intoxica
 
 Welcome to Intoxica. You wanna get intoxicated? This is the right app for you. Prepare any kind of cocktail at your comfort.
 
-# <<<<<<< Intoxica
+#  Intoxica
 
 2022-08-30_19-13.png
 
 > > > > > > > ce54cc7d2a10a449f9d614c5e2ea775f57c287b
-# <<<<<<< Prerequisites
+# Prerequisites
 
 Have Git installed.
 
 Have a text editor installed e.g VS Code, Atom
 
-# <<<<<<< Technologies Used
+# Technologies Used
 
 HTML, CSS, cocktailDb API and JavaScript
 
 Any text editor of your choice.
 
-# <<<<<<< Setup/Installation Requirements
+# Setup/Installation Requirements
 
 Open your terminal (ctrl+alt+T).
 
@@ -39,10 +39,10 @@ Click Submit.
 
 Wait for the response from the web application to get your cocktail info, steps and preparation procedure.
 
-# <<<<<<< Events
+# Events
 
 Load, submit, click
 
-# <<<<<<< API used
+# API used
 
 https://thecocktaildb.com
